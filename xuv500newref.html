@@ -1,0 +1,533 @@
+<style>
+  /* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+  .shrink img {
+    transition: 1s ease;
+  }
+
+  .shrink img:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 1s ease;
+  } */
+
+  .ctaxuv300 {
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-size: 26px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 7px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+
+  .fadein img {
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+
+  .fadein img:hover {
+    opacity: 1;
+    transition: 1s ease;
+  }
+
+  .image-round {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .fontsizedw {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .br7 {
+    border-radius: 7px;
+  }
+
+  .centerp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .black {
+    height: 100px;
+    width: 100%;
+    background: #2d2d2d;
+  }
+
+  .mt-2 {
+    margin-top: 20px !important;
+  }
+
+  .mt-3 {
+    margin-top: 30px !important;
+  }
+
+  .image-hunndo {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+  }
+
+  .image-desktop {
+    height: 650px;
+    border-radius: 7px;
+    margin-top: 40px;
+  }
+
+  .image-desktop-main {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+  }
+
+  .image-desktop-hsmall {
+    height: 150px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .center-images {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .apply:hover {
+    text-decoration: underline;
+  }
+
+  .points-kotak-p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .ml20px {
+    margin-left: 20px;
+  }
+
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 5px;
+  }
+
+  .mt30 {
+    margin-top: 30px;
+  }
+
+  .mb30 {
+    margin-bottom: 30px;
+  }
+
+  .row-main-benefits {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .pdm {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .image-resize-for-small-screen {
+    width: 100px;
+    height: 100px;
+  }
+
+  .clearfix {
+    overflow: hidden;
+  }
+
+  .smth {
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .boldh2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+  }
+
+  .btn:active {
+    background: rgb(0, 3, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 3, 255, 1) 0%,
+      rgba(2, 126, 251, 1) 100%
+    );
+    transform: translateY(4px);
+    border-radius: 0px;
+    color: white;
+  }
+
+  .btn {
+    font-family: "Source Sans Pro", sans-serif;
+    background: rgb(6, 14, 131);
+    background: linear-gradient(
+      0deg,
+      rgba(6, 14, 131, 1) 0%,
+      rgba(12, 25, 180, 1) 100%
+    );
+    border-radius: 7px;
+    color: white;
+    border: none;
+  }
+  .btn:hover {
+    background: rgb(0, 3, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 3, 255, 1) 0%,
+      rgba(2, 126, 251, 1) 100%
+    );
+    border-radius: 7px;
+    color: white;
+  }
+
+  .tb {
+    font-weight: 600;
+  }
+
+  .apply-now-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta {
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+  }
+
+  .mh {
+    font-size: 36px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .ul {
+    text-decoration: underline;
+  }
+
+  .vhc {
+    margin-top: 5%;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+
+  .padding-zero {
+    padding: 0;
+  }
+
+  .tc {
+    text-align: center;
+  }
+
+  .tl {
+    text-align: left;
+  }
+
+  .tr {
+    text-align: right;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    height: 400px;
+  }
+
+  .fas {
+    color: orange;
+    font-weight: 700;
+  }
+
+  .tag {
+    color: green;
+    font-weight: 1000;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-desktop-hsmall {
+      height: 100px !important;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 7px;
+    }
+
+    .image-round {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+    .br7 {
+      border-radius: 7px;
+    }
+
+    .hidebigscreen {
+      display: none;
+    }
+
+    .points-kotak-p {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .smallfont {
+      font-size: 12px;
+    }
+    .image-resize-for-small-screen {
+      width: 100px;
+      height: 100px;
+    }
+
+    .video-wrapper {
+      height: 300px;
+    }
+
+    .mh {
+      font-size: 28px;
+    }
+
+    .cta {
+      font-size: 20px;
+      color: white;
+      background-color: royalblue;
+      border: none;
+      width: 98.1%;
+    }
+
+    .smth {
+      font-size: 16px;
+    }
+
+    .ctaxuv300 {
+      cursor: pointer;
+      color: white;
+      background: black;
+      font-size: 20px;
+      width: 200px;
+      height: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      border-radius: 7px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: bold;
+    }
+  }
+
+  @media screen and (max-width: 1301px) {
+    .image-desktop {
+      height: 400px !important;
+      border-radius: 7px;
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1501px) {
+    .image-desktop {
+      height: 500px !important;
+      border-radius: 7px;
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .image-desktop {
+      height: 400px !important;
+      border-radius: 7px;
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .showsmallscreen {
+      display: none;
+    }
+
+    .mt-1 {
+      margin-top: 10px;
+    }
+  }
+</style>
+<div class="row mb-10">
+  <div class="col-md-24">
+    <a href="https://bit.ly/3eIv6Ih"
+      ><img class="img-fluid" src="{{media
+      url="wysiwyg/offers/xuv500accmainimage.png"}}" alt="" /></a
+    >
+  </div>
+</div>
+<div class="container">
+  <div class="row mb-10">
+    <div class="col-xs-24 col-md-12">
+      <a href="https://bit.ly/3u1pmAW"
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/offers/xuv500accseatcover.png"}}" alt="" /></a
+      >
+    </div>
+    <div class="col-xs-24 col-md-12">
+      <a href="https://bit.ly/3p9zNOZ"
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/offers/xuv500accroof.png"}}" alt="" /></a
+      >
+    </div>
+  </div>
+  <div class="row mb-10">
+    <div class="col-xs-24 col-md-12">
+      <a href="https://bit.ly/3aXhZ4K"
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/offers/xuv500accalloy.png"}}" alt="" /></a
+      >
+    </div>
+    <div class="col-xs-24 col-md-12">
+      <a href="http://bit.ly/3qeP8iM"
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/offers/xuv500accbody.png"}}" alt="" /></a
+      >
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+  <div class="row mb-10">
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3qfa3Ci"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Scuff Plates</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/374mZU8"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Fogs Lamps</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/373tINN"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Footstep</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3pbX1Eo"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Audio System</strong></h1>
+    </div>
+  </div>
+</div>
+<div class="row mb-10">
+  <div class="col-md-24 hidebigscreen image-desktop br7 shrink">
+    <a href="https://bit.ly/3ddz7FU"
+      ><img
+        class="img-fluid image-desktop-main br7"
+        src="{{media
+        url="
+        alt=""
+    /></a>
+  </div>
+  <div class="col-md-24 showsmallscreen br7 shrink">
+    <a href="https://bit.ly/3ddz7FU"
+      ><img
+        class="img-fluid br7 image-desktop-main"
+        src="{{media
+        url="
+        alt=""
+    /></a>
+  </div>
+</div>
+<div class="container">
+  <div class="row mb-10">
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3rM35Ff"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Floor Mats</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3tPfY3d"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Parking Sensors</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3pbzxyX"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Sunshade Sets</strong></h1>
+    </div>
+    <div class="col-xs-12 col-md-6 center-images mt-2 shrink">
+      <a href="https://bit.ly/3addhAD"
+        ><img
+          class="img-fluid image-round"
+          src="{{media
+          url="
+          alt=""
+      /></a>
+      <h1 class="mt-2 fontsizedw"><strong>Wheel Covers</strong></h1>
+    </div>
+  </div>
+</div>
+<div class="row mb-10 mt-2 br7">
+  <div class="col-xs-24 br7">
+    <div class="black br7">&nbsp;</div>
+  </div>
+</div>

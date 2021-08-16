@@ -1,0 +1,450 @@
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+  .centerimageslp {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttontoimagecontainer {
+    position: relative;
+  }
+
+  .buttonredshopnow {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white !important;
+    background: #e21d38;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: bolder;
+  }
+
+  .buttonredshopnow2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white !important;
+    background: #e21d38;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: bolder;
+  }
+
+  .marginlptop {
+    margin-top: 20px;
+  }
+
+  .widthundred {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stretchimage {
+    width: 100%;
+  }
+
+  .image-round {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .fontsizedw {
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+  }
+
+  .card-imagetop1 {
+    transition: 0.3s;
+    width: 410px;
+    height: 150px;
+    position: absolute;
+    bottom: 2px;
+    left: 10%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-imagetop1mobile {
+    transition: 0.3s;
+    position: absolute;
+    bottom: 2px;
+    left: 2%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 96%;
+  }
+
+  .paddingsmallimg1 {
+    padding: 30px;
+  }
+
+  .borderad7 {
+    border-radius: 10px;
+  }
+
+  .car-name-carousel {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  /* .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      } */
+
+  .card-bodyimagetop1 {
+    padding: 10px;
+  }
+
+  .container-image-top {
+    position: relative;
+  }
+
+  .btn-shop1 {
+    color: white;
+    background-color: #e21d38;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 9px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: none;
+  }
+
+  .cardmain4 {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .cardmain4:hover {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .textheader1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #706667;
+    font-size: 25px;
+  }
+
+  .hbigscreen {
+    display: none;
+  }
+
+  .hsmallscreen {
+    display: block;
+  }
+
+  .column4des {
+    float: left;
+    width: 25%;
+  }
+
+  /* Clear floats after the columns */
+  .row4coldes:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .paddingsmallimg2 {
+    margin: 10px;
+  }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .cardscrollforwrapper {
+    flex: 0 0 auto;
+    border-right: 1px solid #cccccc;
+    width: 300px;
+    padding: 10px;
+  }
+
+  #style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+
+  #style-3::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #f5f5f5;
+  }
+
+  #style-3::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #d62929;
+  }
+
+  @media screen and (max-width: 768px) {
+    #style-3::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hsmallscreen {
+      display: none;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hbigscreen {
+      display: block;
+    }
+
+    .textheader1 {
+      text-align: center;
+    }
+
+    .image-round {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    .fontsizedw {
+      font-size: 16px;
+    }
+
+    .card-imagetop1 {
+      width: 300px;
+      left: 10%;
+    }
+
+    .column4des {
+      float: left;
+      width: 50% !important;
+    }
+    .paddingsmallimg1 {
+      padding: 5px;
+    }
+
+    .paddingsmallimg2 {
+      margin: 10px;
+    }
+
+    .buttonredshopnow {
+      position: absolute;
+      top: 85%;
+      width: 100px;
+      left: 75%;
+      font-size: 16px;
+    }
+    .buttonredshopnow2 {
+      position: absolute;
+      top: 100%;
+      width: 100px;
+      font-size: 16px;
+    }
+  }
+</style>
+
+<div class="row mb-10 widthundred marginlptop hsmallscreen">
+  <div class="col-md-24 centerimageslp buttontoimagecontainer">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Desktop-Header.jpg"}}" alt="" />
+      <a
+        href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+        class="buttonredshopnow"
+        >Shop Now</a
+      >
+    </a>
+  </div>
+</div>
+
+<div class="row mb-10 widthundred marginlptop hbigscreen">
+  <div class="col-md-24 centerimageslp buttontoimagecontainer">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Mobile-Header.jpg"}}" alt="" />
+      <a
+        href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+        class="buttonredshopnow"
+        >Shop Now</a
+      >
+    </a>
+  </div>
+</div>
+<h1 class="marginlptop">Choose Your Mahindra SUV</h1>
+
+<div class="scrolling-wrapper-flexbox marginlptop" id="style-3">
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/thar-2020.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Tharalloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">Thar</h1>
+  </div>
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/xuv300.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/xuv300alloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">XUV300</h1>
+  </div>
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/xuv500.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-XUV500alloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">XUV500</h1>
+  </div>
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/scorpio.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Scorpioalloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">Scorpio</h1>
+  </div>
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/bolero-bs6-2020.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Bolero_Power_Plusalloywheels.png"}}"
+      alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">Bolero</h1>
+  </div>
+  <!-- <div class="cardscrollforwrapper">
+    <a
+      href=""
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Alturas_G4alloywheels.png"}}" alt=""
+      />
+    </a>
+
+    <h1 class="car-name-carousel">Altrus G4</h1>
+  </div> -->
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/tuv300.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-TUV100alloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">TUV100</h1>
+  </div>
+  <div class="cardscrollforwrapper">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/car-accessories/marazzo.html?producttype=670"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Marazzoalloywheels.png"}}" alt="" />
+    </a>
+
+    <h1 class="car-name-carousel">Marazzo</h1>
+  </div>
+  <!-- <div class="cardscrollforwrapper">
+    <a
+      href=""
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/Accessories-Car-Kuv100_NXTalloywheels.png"}}" alt=""
+      />
+    </a>
+
+    <h1 class="car-name-carousel">KUV100 NXT</h1>
+  </div> -->
+</div>
+
+<div class="row mb-10 widthundred marginlptop hsmallscreen">
+  <div class="col-md-24 centerimageslp">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Desktop-Benefits.png"}}" alt="" />
+    </a>
+  </div>
+</div>
+
+<div class="row mb-10 widthundred marginlptop hbigscreen">
+  <div class="col-md-24 centerimageslp">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Mobile-Benefits.png"}}" alt="" />
+    </a>
+  </div>
+</div>
+
+<div class="row mb-10 widthundred marginlptop hsmallscreen">
+  <div class="col-md-24 centerimageslp buttontoimagecontainer">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Desktop-Whychoosealloywheelsfromus.png"}}"
+      alt="" />
+      <a
+        href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+        class="buttonredshopnow2"
+        >Shop Now</a
+      >
+    </a>
+  </div>
+</div>
+
+<div class="row mb-10 widthundred marginlptop hbigscreen">
+  <div class="col-md-24 centerimageslp buttontoimagecontainer">
+    <a
+      href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+    >
+      <img class="img-fluid headertopimage stretchimage" src="{{media
+      url="wysiwyg/offers/AlloyWheelsLP-Mobile-Whychoosealloywheelsfromus.png"}}"
+      alt="" />
+      <a
+        href="https://www.m2all.com/mahindra-genuine-accessories/alloy-wheels.html"
+        class="buttonredshopnow2"
+        >Shop Now</a
+      >
+    </a>
+  </div>
+</div>

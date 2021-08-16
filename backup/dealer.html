@@ -1,0 +1,1847 @@
+<p>&nbsp;</p>
+<style>
+  body {
+    background: #fff;
+    font-family: "Open Sans";
+    padding: 0px;
+    margin: 0px;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=cJZKeOuBrn4kERxqtaUH3eQMgGoy_nKaqo2cKJRLrBJdxlT5RfGIy95sQWGkHIXZT_wDREvo4O6_6v9ljamcpjDjNODm32iLRYw2SNTAhDi20L9efk2PUOdb5H1Th4EY)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=cJZKeOuBrn4kERxqtaUH3Rfzzo0OiUYJdfKM9TmUas1dxlT5RfGIy95sQWGkHIXZT_wDREvo4O6_6v9ljamcpjDjNODm32iLRYw2SNTAhDi20L9efk2PUOdb5H1Th4EY)
+        format("woff");
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=MTP_ySUJH_bn48VBG8sNSoQSOEeazGh8gh9HUNTvrRMFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=MTP_ySUJH_bn48VBG8sNSjBj4j7RKzZd-IY3pDfmla0FjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff");
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=k3k702ZOKiLJc3WVjuplzIQSOEeazGh8gh9HUNTvrRMFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=k3k702ZOKiLJc3WVjuplzDBj4j7RKzZd-IY3pDfmla0FjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff");
+  }
+  /*  start new css by paresh*/
+  .topBar {
+    display: none;
+  }
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .banner-container {
+    margin-bottom: 40px !important;
+    cursor: pointer;
+  }
+  .banner-container img {
+    width: 100%;
+  }
+  .step_1 {
+    display: flex;
+    padding: 40px 0px;
+    border-bottom: 1px dashed #ccc;
+  }
+  .ref_step_heading {
+    font-size: 32px;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .step_1 p {
+    font-size: 16px;
+  }
+  .span11 {
+    margin-left: 65px;
+  }
+  .span12 {
+    margin-left: 0px;
+  }
+  .ref_btn {
+    background: none repeat scroll 0 0 #2ecc71;
+    border: 2px solid #2ecc71;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    outline: 0;
+    font-size: 15px;
+  }
+
+  .ref_btn:hover {
+    background: 0 0;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+  }
+
+  .terms span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 17px;
+  }
+  .terms ol {
+    font-size: 14px;
+    line-height: 1.6em;
+    padding-left: 15px;
+  }
+  /*--- media Screen Start-*/
+  @media screen and (max-width: 500px) {
+    .wrapper {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .logo-container {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+    .banner-container {
+      margin-bottom: 10px !important;
+    }
+    .step_1 {
+      padding: 15px 15px;
+    }
+    .ref_step_heading {
+      font-size: 22px;
+    }
+    .span11 {
+      margin-left: 18px;
+    }
+    .terms {
+      padding: 15px;
+    }
+    .terms span {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+    .terms ol {
+      padding-left: 15px;
+    }
+    .span4 img {
+      width: 100px;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 767px) {
+  }
+  /*  end new css by paresh*/
+</style>
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/v/css/bootstrap.63b2c38c.css" media="screen"> -->
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/v/css/style.eff675f7.css" media="screen"> -->
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/v/css/jquery-ui.dce4e39d.css" media="screen"> -->
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/v/css/grid.ab18a4f3.css" media="screen"> -->
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/v/css/default.0d4f1c34.css" media="screen"> -->
+<p>&nbsp;</p>
+<!-- <link href="https://img2.hkrtcdn.com/dist/lp/referFriends/css/referral_style.css" type="text/css" rel="stylesheet"> -->
+<p>&nbsp;</p>
+<!-- <link rel="stylesheet" type="text/css" href="https://img2.hkrtcdn.com/dist/assets/css/HK.css" media="screen"> -->
+<style>
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=cJZKeOuBrn4kERxqtaUH3eQMgGoy_nKaqo2cKJRLrBJdxlT5RfGIy95sQWGkHIXZT_wDREvo4O6_6v9ljamcpjDjNODm32iLRYw2SNTAhDi20L9efk2PUOdb5H1Th4EY)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=cJZKeOuBrn4kERxqtaUH3Rfzzo0OiUYJdfKM9TmUas1dxlT5RfGIy95sQWGkHIXZT_wDREvo4O6_6v9ljamcpjDjNODm32iLRYw2SNTAhDi20L9efk2PUOdb5H1Th4EY)
+        format("woff");
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=MTP_ySUJH_bn48VBG8sNSoQSOEeazGh8gh9HUNTvrRMFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=MTP_ySUJH_bn48VBG8sNSjBj4j7RKzZd-IY3pDfmla0FjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff");
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=k3k702ZOKiLJc3WVjuplzIQSOEeazGh8gh9HUNTvrRMFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff2"),
+      url(https://themes.googleusercontent.com/licensed/font?kit=k3k702ZOKiLJc3WVjuplzDBj4j7RKzZd-IY3pDfmla0FjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU)
+        format("woff");
+  }
+
+  ul.brandLogo {
+    list-style: none;
+    margin-top: 25px;
+  }
+
+  ul.brandLogo li {
+    display: inline-block;
+    margin-right: 40px;
+    width: 140px;
+    margin-bottom: 15px;
+  }
+  ul.brandLogo li:last-child {
+    margin-right: 0;
+  }
+
+  .nav-box li a {
+    display: inline-block;
+    padding: 2px 15px;
+    width: 145px;
+  }
+
+  .cl {
+    clear: both;
+  }
+  .hdr1 {
+    height: 30px;
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #333;
+  }
+  .logo-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+  }
+
+  .mobile {
+    display: none;
+    margin: 0px;
+  }
+  .introd-leaf {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    /*min-width: 140px;*/
+    width: 75%;
+    padding: 0 30px 0 10px;
+    color: #fff;
+    font-size: 20px;
+    background: #f7b63e;
+    border: 0 solid rgba(5, 0, 1, 1);
+    /*border-radius: 4px;*/
+  }
+
+  .introd-leaf:after {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+  }
+
+  .introd-plan-wrap {
+    display: flex; /*justify-content: center;*/
+    align-items: center;
+  }
+  /*.introd-plan-wp .introd-plan {padding-bottom: 20px;}*/
+  .introd-plan {
+    position: relative;
+    width: 100%; /*360*/
+    margin: 0 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  .introd-plan-hd {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+  }
+
+  .introd-plan-title {
+    /*margin-bottom: 35px; */
+    color: #f7b63e;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .introd-plan-USD {
+    /*margin-bottom: 30px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plan-usd {
+    font-size: 25px;
+  }
+  .introd-plan-btn,
+  .plan-current,
+  .plan-usd {
+    color: rgba(115, 190, 136, 1);
+  }
+  .plan-current {
+    margin: 0 10px;
+    font-size: 30px;
+  }
+  .introd-plan-btn,
+  .plan-current,
+  .plan-usd {
+    color: rgba(115, 190, 136, 1);
+  }
+  b,
+  caption,
+  em,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  th {
+    font-weight: 400;
+  }
+  .plan-del {
+    font-size: 28px;
+    text-decoration: line-through;
+    color: rgba(204, 204, 204, 1);
+  }
+  .plan-list {
+    margin: 20px auto 0;
+    padding: 18px 15px;
+    line-height: 24px;
+    background: rgba(246, 247, 251, 1);
+    border-radius: 10px;
+  }
+  .plan-list,
+  .plan-renewal {
+    width: 88.89%;
+    color: rgba(51, 51, 51, 1);
+    font-size: 14px;
+  }
+  .plan-list p {
+    display: flex;
+  }
+  .plan-list .icon-duihao2 {
+    margin: 0 5px;
+    font-size: 14px;
+    color: rgba(111, 185, 132, 1);
+  }
+  .iconfont {
+    font-family: iconfont !important;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .iconfont,
+  address,
+  cite,
+  dfn,
+  em,
+  i,
+  var {
+    font-style: normal;
+  }
+  .plan-list strong {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .introd-plan-fd {
+    padding: 10px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .introd-plan-btn {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /*font-weight: 700;*/
+    width: 222px;
+    height: 48px;
+    /*background: rgba(115,190,136,0);*/
+    background: #333131;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: all 0.2s;
+    overflow: hidden;
+    color: #fff;
+  }
+
+  .introd-plan-btn:hover {
+    color: #e7374c;
+  }
+
+  .begin-plan {
+    border: 1px solid #f7b63e;
+    border-radius: 20px;
+  }
+  .social-plan {
+    border: 1px solid #55c98a;
+    border-radius: 20px;
+  }
+  .pro-plan {
+    border: 1px solid #006df0;
+    border-radius: 20px;
+  }
+  .begin-planrs {
+    color: #4f4e4e;
+    font-weight: bold;
+  }
+  .plan-list {
+    margin-top: 0px;
+    padding-top: 7px;
+  }
+  .plan-list {
+    padding: 2px 5px;
+  }
+  .social-bg {
+    background: #55c98a;
+  }
+  .social-title {
+    color: #55c98a;
+  }
+  .pro-bg {
+    background: #006df0;
+  }
+  .pro-title {
+    color: #006df0;
+  }
+  .memberjoin {
+    background: #e7374c;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .memberjoin p {
+    padding: 15px;
+    color: #fff;
+    font-size: 25px;
+  }
+  .taxes {
+    font-size: 15px;
+    text-align: center;
+  }
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  .text-center1 h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: roboto-bold;
+  }
+  .heading hr {
+    width: 60px;
+    height: 4px;
+    background-color: #333131;
+    margin: 0 auto;
+    border: none;
+  }
+  .yellow {
+    background: #fffacd;
+  }
+  .green {
+    background: #bbf9d7;
+  }
+  .blue {
+    background: #c8e1fe;
+  }
+  .introd-plan-title {
+    margin-bottom: 0px;
+  }
+  .introd-plan-wrap {
+    padding: 20px;
+  }
+
+  /*----Customer Review Section Start---*/
+  h3 {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+  }
+  .author-img img {
+    border-radius: 50%;
+    width: 80px;
+  }
+  .author {
+    display: flex;
+    align-items: center;
+  }
+  .author-img {
+    margin-right: 1rem;
+  }
+  p.author-ocp {
+    margin-top: -15px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+  }
+  .reviewhead {
+    font-size: 14px;
+  }
+  .mt-40 {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .bg-review {
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    width: 31%;
+    margin: 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  .mb-25 {
+    margin-bottom: 25px;
+  }
+  /*----Customer Review Section End---*/
+
+  /*--table css start--*/
+  .introd-table {
+    margin-bottom: 30px;
+    padding: 0 20px 14px;
+    background: #a7dbf9; /*background: rgba(255,255,255,1);*/
+  }
+  .FQAs-section,
+  .introd-table,
+  .premium-plan {
+    border-radius: 30px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  .introd-table-hd {
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    border-bottom: 1px solid rgba(228, 231, 237, 1);
+  }
+  .introd-table-row {
+    display: flex;
+    align-items: center;
+  }
+  .introd-table-column:first-of-type {
+    padding: 10px 30px;
+    justify-content: start;
+    flex: 0 0 50%;
+  }
+  .introd-table-column {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .introd-table-row {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+  }
+  .introd-table-column:first-of-type {
+    padding: 10px 30px;
+    justify-content: start;
+    flex: 0 0 50%;
+  }
+  .tablehead {
+    font-family: roboto-bold;
+    font-size: 20px;
+  }
+  .featureshead {
+    font-size: 15px;
+    font-family: roboto-medium;
+  }
+  .featuresheadsub {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .introd-table-hd {
+    border-bottom: none;
+  }
+  .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px 10px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+  }
+  .pdmobile {
+    display: none;
+  }
+  /*--table css end---*/
+
+  @media only screen and (max-width: 600px) {
+    .introd-plan-wrap {
+      display: inline-block;
+      margin-bottom: -24px;
+      width: 95%;
+    }
+    .introd-leaf {
+      width: 100%;
+    }
+    .introd-plan {
+      margin-bottom: 15px;
+    }
+    .memberjoin p {
+      padding: 5px;
+      font-size: 18px;
+    }
+    .text-center1 h3 {
+      font-size: 20px;
+    }
+    .bg-review {
+      width: 100%;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+    .introd-table {
+      margin-bottom: 45px;
+    }
+    .mobile {
+      display: block;
+      margin: 0px;
+    }
+    .desktop {
+      display: none;
+    }
+    .tablehead {
+      font-family: roboto-medium;
+      font-size: 12px;
+    }
+    .introd-table-column:first-of-type {
+      flex: 0 0 32%;
+    }
+    /*.mobilefb {width: 50%;}*/
+    .topBarmobile {
+      display: none;
+    }
+    /*.card-category {padding:5px; font-size: 10px;}*/
+    .pddesktop {
+      display: none;
+    }
+    .pdmobile {
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .memberjoin {
+      border-radius: 0px;
+    }
+
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+      margin-bottom: 8px;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #ccc;
+    }
+
+    .accordion:after {
+      content: "\002B";
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+  }
+</style>
+<div class="wrapper">
+  <div class="logo-container">
+    <a href="https://www.m2all.com/">
+      <img
+        src="https://skin.m2all.com/skin/frontend/new/m2all//images/m2all_logo_red.png"
+        alt=""
+      />
+    </a>
+  </div>
+</div>
+<div class="offer_block">
+  <!-- <div class="row">
+<div class="col-lg-24">
+<div class="offer_title"><span>EXCITING OFFERS</span></div>
+</div>
+</div> -->
+  <div class="row desktop" style="margin-bottom: 10px; margin: 0px">
+    <div class="col-md-24">
+      <a
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/promotions/plan_head_1.jpg"}}" alt=""></a
+      >
+    </div>
+  </div>
+  <div class="row mobile" style="margin-bottom: 10px">
+    <div class="col-md-24">
+      <a
+        ><img class="img-fluid" src="{{media
+        url="wysiwyg/promotions/plan_head_mob_1.jpg"}}" alt=""></a
+      >
+    </div>
+  </div>
+  <article class="introd-plan-wrap introd-plan-wp">
+    <div class="introd-plan begin-plan">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf">Social Beginner Package</div>
+        <p class="introd-plan-title">3 MONTHS PLAN</p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">12,999</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list yellow">
+          <p>- 6 Creatives (Per Month)</p>
+          <p>- Platform Managed (Only Facebook)</p>
+          <p>- Estimated Lead Generation &nbsp;<strong> 30 - 40</strong></p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+    <div class="introd-plan social-plan">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf social-bg">Social Standard Package</div>
+        <p class="introd-plan-title social-title">3 MONTHS PLAN</p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">17,999</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list green">
+          <p>- 10 Creatives (Per Month)</p>
+          <p>- Platform Managed (Facebook, Instagram &amp; Twitter)</p>
+          <p>- Estimated Lead Generation &nbsp;<strong> 50 - 70</strong></p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-standard-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+    <div class="introd-plan pro-plan">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf pro-bg">Social Pro Package</div>
+        <p class="introd-plan-title pro-title">3 MONTHS PLAN</p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">22,999</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list blue">
+          <p>- 15 Creatives (Per Month)</p>
+          <p>- Platform Managed (Facebook, Instagram &amp; Twitter)</p>
+          <p>- Estimated Lead Generation &nbsp;<strong> 100 - 120</strong></p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-pro-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+  </article>
+  <article class="introd-plan-wrap introd-plan-wp">
+    <div class="introd-plan begin-plan">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf">Google My Business Listing</div>
+        <p class="introd-plan-title" style="visibility: hidden">
+          3 MONTHS PLAN
+        </p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">15,000</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list yellow">
+          <p>- Creation of Google Business Listings</p>
+          <p>
+            - Audit &amp; Optimization of Listings based on latest search
+            Algorithms
+          </p>
+          <p>- Online Reputation Management</p>
+          <p>- Reviews &amp; Ratings</p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+    <div class="introd-plan begin-plan" style="visibility: hidden">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf">Google My Business Listing</div>
+        <p class="introd-plan-title" style="visibility: hidden">
+          3 MONTHS PLAN
+        </p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">15,000</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list yellow">
+          <p>- Creation of Google Business Listings</p>
+          <p>
+            - Audit &amp; Optimization of Listings based on latest search
+            Algorithms
+          </p>
+          <p>- Online Reputation Management</p>
+          <p>- Reviews &amp; Ratings</p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+    <div class="introd-plan begin-plan" style="visibility: hidden">
+      <div class="introd-plan-hd">
+        <div class="introd-leaf">Google My Business Listing</div>
+        <p class="introd-plan-title" style="visibility: hidden">
+          3 MONTHS PLAN
+        </p>
+        <div class="introd-plan-USD">
+          <span class="plan-usd begin-planrs">₹</span>
+          <strong class="plan-current begin-planrs">15,000</strong>
+          <!--<span class="plan-del">75</span>-->
+        </div>
+        <div class="plan-list yellow">
+          <p>- Creation of Google Business Listings</p>
+          <p>
+            - Audit &amp; Optimization of Listings based on latest search
+            Algorithms
+          </p>
+          <p>- Online Reputation Management</p>
+          <p>- Reviews &amp; Ratings</p>
+        </div>
+      </div>
+      <div class="introd-plan-fd">
+        <a
+          class="introd-plan-btn bf-entrance hue-js"
+          href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+          target="_blank"
+          rel="noopener"
+          >BUY NOW</a
+        >
+      </div>
+    </div>
+  </article>
+  <article>
+    <p class="taxes">
+      * Amount shown above is without taxes and subscription is for minimum 3
+      months.
+    </p>
+  </article>
+  <!--Table Content Start-->
+  <article class="mt-40 pddesktop">
+    <div class="heading text-center1 mb-25">
+      <h3 class="mainhead">PACKAGE DETAILS (MONTHLY)</h3>
+      <hr />
+    </div>
+    <div class="introd-table">
+      <div class="introd-table-row introd-table-hd">
+        <div class="introd-table-column">
+          <div class="tablehead">FEATURES</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="tablehead">SOCIAL BEGINNER</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="tablehead">SOCIAL STANDARD</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="tablehead">SOCIAL PRO</div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">No. of Social Media Creatives</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">6</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">10</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">15</div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">No. of customised GIFs</div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">2</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">2</div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">Video Creation</div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">1</div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Copywriting and Posting (Across Channels)
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">
+            FB ad campaign budget for lead generation
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Media Buying For Lead Generation Ad Campaigns (Inclusive)
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">Worth Rs.1000</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">Worth Rs.3000</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">Worth Rs.5000</div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Platforms Managed: Facebook, Instagram &amp; Twitter
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid mobilefb" src="{{media
+            url="wysiwyg/promotions/fb_1.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/fit.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div>
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/fit.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Creation of Social Media Profiles (IF REQUIRED)
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">Comprehensive Social Media Calendar</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">
+            REMARKETING to LOST &amp; OPEN ENQUIRIES
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Content Seeding – Increase Visibility for New Prospects
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">Contests</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">
+            Online Reputation Management (Response Management)
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">Performance Report With Analytics</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </div>
+        </div>
+      </div>
+      <div
+        class="introd-table-row"
+        style="background: #fff; border-radius: 5px"
+      >
+        <div class="introd-table-column">
+          <div class="featureshead">Estimated Overall Reach</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">50,000</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">1,50,000</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">3,00,000</div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">Estimated Leads Generation</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">30 - 40 Leads</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">50 - 70 Leads</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="featuresheadsub">100 - 120 Leads</div>
+        </div>
+      </div>
+      <div class="introd-table-row">
+        <div class="introd-table-column">
+          <div class="featureshead">&nbsp;</div>
+        </div>
+        <div class="introd-table-column">
+          <div class="">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-standard-package.html"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+        <div class="introd-table-column">
+          <div class="">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-pro-package.html"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!--Table Content End-->
+  <article class="pdmobile">
+    <div class="heading text-center1 mb-25">
+      <h3 class="mainhead">PACKAGE DETAILS (MONTHLY)</h3>
+      <hr />
+    </div>
+    <button class="accordion">Social Beginner</button>
+    <div class="panel">
+      <!--    <div class="mobiletablehead">
+        <p>SOCIAL BEGINNER</p> 
+    </div>-->
+      <div class="mobiletable">
+        <ul>
+          <li class="head_1">No. of Social Media Creatives</li>
+          <li class="head_2" style="font-family: inherit">6</li>
+          <li class="head_1">No. of customised GIFs</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </li>
+          <li class="head_1">Video Creation</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </li>
+          <li class="head_1">Copywriting and Posting (Across Channels)</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">FB ad campaign budget for lead generation</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid mobilefb" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">
+            Media Buying For Lead Generation Ad Campaigns (Inclusive)
+          </li>
+          <li class="head_2" style="font-family: inherit">Worth Rs.1000</li>
+          <li class="head_1">
+            Platforms Managed: Facebook, Instagram &amp; Twitter
+          </li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/fb_1.png"}}" alt="">
+          </li>
+          <li class="head_1">
+            Creation of Social Media Profiles (IF REQUIRED)
+          </li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">Comprehensive Social Media Calendar</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">REMARKETING to LOST &amp; OPEN ENQUIRIES</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">
+            Content Seeding – Increase Visibility for New Prospects
+          </li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </li>
+          <li class="head_1">Contests</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </li>
+          <li class="head_1">
+            Online Reputation Management (Response Management)
+          </li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">Performance Report With Analytics</li>
+          <li class="head_2" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_1">Estimated Overall Reach</li>
+          <li class="head_2" style="font-family: inherit">50,000</li>
+          <li class="head_1">Estimated Leads Generation</li>
+          <li class="head_2" style="font-family: inherit">30 - 40 Leads</li>
+          <li class="head_1">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-beginner-package.html"
+              >Buy Now</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="accordion">Social Standard</button>
+    <div class="panel">
+      <div class="mobiletable">
+        <ul>
+          <li class="head_3">No. of Social Media Creatives</li>
+          <li class="head_4" style="font-family: inherit">10</li>
+          <li class="head_3">No. of customised GIFs</li>
+          <li class="head_4" style="font-family: inherit">2</li>
+          <li class="head_3">Video Creation</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/cross.png"}}" alt="">
+          </li>
+          <li class="head_3">Copywriting and Posting (Across Channels)</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">FB ad campaign budget for lead generation</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid mobilefb" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">
+            Media Buying For Lead Generation Ad Campaigns (Inclusive)
+          </li>
+          <li class="head_4" style="font-family: inherit">Worth Rs.3000</li>
+          <li class="head_3">
+            Platforms Managed: Facebook, Instagram &amp; Twitter
+          </li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/fit.png"}}" alt="">
+          </li>
+          <li class="head_3">
+            Creation of Social Media Profiles (IF REQUIRED)
+          </li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">Comprehensive Social Media Calendar</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">REMARKETING to LOST &amp; OPEN ENQUIRIES</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">
+            Content Seeding – Increase Visibility for New Prospects
+          </li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">Contests</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">
+            Online Reputation Management (Response Management)
+          </li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">Performance Report With Analytics</li>
+          <li class="head_4" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_3">Estimated Overall Reach</li>
+          <li class="head_4" style="font-family: inherit">1,50,000</li>
+          <li class="head_3">Estimated Leads Generation</li>
+          <li class="head_4" style="font-family: inherit">50 - 70 Leads</li>
+          <li class="head_3">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-standard-package.html"
+              >Buy Now</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="accordion">Social Pro</button>
+    <div class="panel">
+      <div class="mobiletable">
+        <ul>
+          <li class="head_5">No. of Social Media Creatives</li>
+          <li class="head_6" style="font-family: inherit">15</li>
+          <li class="head_5">No. of customised GIFs</li>
+          <li class="head_6" style="font-family: inherit">2</li>
+          <li class="head_5">Video Creation</li>
+          <li class="head_6" style="font-family: inherit">1</li>
+          <li class="head_5">Copywriting and Posting (Across Channels)</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">FB ad campaign budget for lead generation</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid mobilefb" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">
+            Media Buying For Lead Generation Ad Campaigns (Inclusive)
+          </li>
+          <li class="head_6" style="font-family: inherit">Worth Rs.5000</li>
+          <li class="head_5">
+            Platforms Managed: Facebook, Instagram &amp; Twitter
+          </li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/fit.png"}}" alt="">
+          </li>
+          <li class="head_5">
+            Creation of Social Media Profiles (IF REQUIRED)
+          </li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">Comprehensive Social Media Calendar</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">REMARKETING to LOST &amp; OPEN ENQUIRIES</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">
+            Content Seeding – Increase Visibility for New Prospects
+          </li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">Contests</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">
+            Online Reputation Management (Response Management)
+          </li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">Performance Report With Analytics</li>
+          <li class="head_6" style="font-family: inherit">
+            <img class="img-fluid" src="{{media
+            url="wysiwyg/promotions/check.png"}}" alt="">
+          </li>
+          <li class="head_5">Estimated Overall Reach</li>
+          <li class="head_6" style="font-family: inherit">3,00,000</li>
+          <li class="head_5">Estimated Leads Generation</li>
+          <li class="head_6" style="font-family: inherit">100 - 120 Leads</li>
+          <li class="head_5">
+            <a
+              class="card-category"
+              href="https://www.m2all.com/mahindra-merchandise/dealership-social-media-deliverables-pricing/dealership-social-pro-package.html"
+              >Buy Now</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+  <!--<article class="pdmobile">
+    <div class="heading text-center1 mb-25">
+        <h3 class="mainhead">PACKAGE DETAILS (MONTHLY)</h3>
+        <hr>
+    </div>
+    <div class="mobiletablehead">
+        <p>SOCIAL BEGINNER</p> 
+    </div> 
+    <div class="mobiletable">
+        <li class="head_1">No. of Social Media Creatives</li>
+        <li class="head_2" style="font-family: inherit;">6</li>
+        <li class="head_1">No. of customised GIFs</li>  
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/cross.png"}}" alt="" /></li>
+        <li class="head_1">Video Creation</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/cross.png"}}" alt="" /></li>
+        <li class="head_1">Copywriting and Posting (Across Channels)</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">FB ad campaign budget for lead generation</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid mobilefb" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">Media Buying For Lead Generation Ad Campaigns (Inclusive)</li>
+        <li class="head_2" style="font-family: inherit;">Worth Rs.1000</li>
+        <li class="head_1">Platforms Managed: Facebook, Instagram & Twitter</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/fb_1.png"}}" alt="" /></li>
+        <li class="head_1">Creation of Social Media Profiles (IF REQUIRED)</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">Comprehensive Social Media Calendar</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">REMARKETING to LOST & OPEN ENQUIRIES</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">Content Seeding – Increase Visibility for New Prospects</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/cross.png"}}" alt="" /></li>
+        <li class="head_1">Contests</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/cross.png"}}" alt="" /></li>
+        <li class="head_1">Online Reputation Management (Response Management)</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">Performance Report With Analytics</li>
+        <li class="head_2" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_1">Estimated Overall Reach</li>
+        <li class="head_2" style="font-family: inherit;">50,000</li>
+        <li class="head_1">Estimated Leads Generation</li>
+        <li class="head_2" style="font-family: inherit;">30 - 40 Leads</li>
+        <li class="head_1"><a class="card-category" href="">Buy Now</a></li>        
+    </div>  
+    
+    <div class="mobiletablehead"> 
+        <p style="background: #55c98a;">SOCIAL STANDARD</p> 
+    </div>
+    <div class="mobiletable">
+        <li class="head_3">No. of Social Media Creatives</li>
+        <li class="head_4" style="font-family: inherit;">10</li>
+        <li class="head_3">No. of customised GIFs</li>  
+        <li class="head_4" style="font-family: inherit;">2</li>
+        <li class="head_3">Video Creation</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/cross.png"}}" alt="" /></li>
+        <li class="head_3">Copywriting and Posting (Across Channels)</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">FB ad campaign budget for lead generation</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid mobilefb" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Media Buying For Lead Generation Ad Campaigns (Inclusive)</li>
+        <li class="head_4" style="font-family: inherit;">Worth Rs.3000</li>
+        <li class="head_3">Platforms Managed: Facebook, Instagram & Twitter</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/fit.png"}}" alt="" /></li>
+        <li class="head_3">Creation of Social Media Profiles (IF REQUIRED)</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Comprehensive Social Media Calendar</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">REMARKETING to LOST & OPEN ENQUIRIES</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Content Seeding – Increase Visibility for New Prospects</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Contests</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Online Reputation Management (Response Management)</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Performance Report With Analytics</li>
+        <li class="head_4" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_3">Estimated Overall Reach</li>
+        <li class="head_4" style="font-family: inherit;">1,50,000</li>
+        <li class="head_3">Estimated Leads Generation</li>
+        <li class="head_4" style="font-family: inherit;">50 - 70 Leads</li>
+        <li class="head_3"><a class="card-category" href="">Buy Now</a></li>        
+    </div>
+    
+    <div class="mobiletablehead"> 
+        <p style="background: #006df0; color: #fff;" >SOCIAL PRO</p> 
+    </div>
+    <div class="mobiletable">
+        <li class="head_5">No. of Social Media Creatives</li>
+        <li class="head_6" style="font-family: inherit;">15</li>
+        <li class="head_5">No. of customised GIFs</li>  
+        <li class="head_6" style="font-family: inherit;">2</li>
+        <li class="head_5">Video Creation</li>
+        <li class="head_6" style="font-family: inherit;">1</li>
+        <li class="head_5">Copywriting and Posting (Across Channels)</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">FB ad campaign budget for lead generation</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid mobilefb" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Media Buying For Lead Generation Ad Campaigns (Inclusive)</li>
+        <li class="head_6" style="font-family: inherit;">Worth Rs.5000</li>
+        <li class="head_5">Platforms Managed: Facebook, Instagram & Twitter</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/fit.png"}}" alt="" /></li>
+        <li class="head_5">Creation of Social Media Profiles (IF REQUIRED)</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Comprehensive Social Media Calendar</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">REMARKETING to LOST & OPEN ENQUIRIES</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Content Seeding – Increase Visibility for New Prospects</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Contests</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Online Reputation Management (Response Management)</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Performance Report With Analytics</li>
+        <li class="head_6" style="font-family: inherit;"><img class="img-fluid" src="{{media url="wysiwyg/promotions/check.png"}}" alt="" /></li>
+        <li class="head_5">Estimated Overall Reach</li>
+        <li class="head_6" style="font-family: inherit;">3,00,000</li>
+        <li class="head_5">Estimated Leads Generation</li>
+        <li class="head_6" style="font-family: inherit;">100 - 120 Leads</li>
+        <li class="head_5"><a class="card-category" href="">Buy Now</a></li>        
+    </div>
+    
+</article>-->
+  <article class="memberjoin">
+    <p>10+ people have already joined our Social Media Packages</p>
+  </article>
+  <button class="button" style="display: none">Buy Now</button>
+</div>
+<style>
+  .mobiletablehead {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .mobiletablehead p {
+    background: #f7b63e;
+    font-family: roboto-bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 6px;
+  }
+  .mobiletable {
+    background: #f1f1f1;
+    margin-bottom: 50px;
+  }
+  .mobiletable li {
+    font-size: 14px;
+    font-family: roboto-medium;
+    list-style: none;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .head_1 {
+    background: #f8cb79;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .head_2 {
+    background: #faeace;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .head_3 {
+    background: #79e2a9;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .head_4 {
+    background: #c4f5da;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .head_5 {
+    background: #92c2fb;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .head_6 {
+    background: #cfe2f9;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 10px;
+  }
+  .mobiletable li .head_2 {
+    font-family: inherit !important;
+  }
+
+  .button {
+    border-radius: 4px;
+    /*background-color: #f4511e;*/
+    background-color: #333131;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 0px 8px 0px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+</style>

@@ -1,0 +1,469 @@
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+  .columncol2 {
+    float: left;
+    width: 50%;
+  }
+
+  .marginone {
+    margin: 0 !important;
+  }
+
+  /* Clear floats after the columns */
+  .rowcol2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .br7 {
+    border-radius: 7px;
+  }
+
+  .centerimageslp {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    flex-direction: column;
+    text-align: center;
+    object-fit: contain;
+  }
+
+  .marginlptop {
+    margin-top: 10px;
+  }
+
+  .widthundred {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-round {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .fontsizedw {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+  }
+
+  .main-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .imagesizefix {
+    border-radius: 7px;
+    height: 555px;
+  }
+
+  .main75 {
+    flex: 70%;
+  }
+  .main25 {
+    flex: 30%;
+  }
+
+  .cardmain4 {
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .cardmain4:hover {
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .paddingsmallimg1 {
+    margin: 15px;
+  }
+
+  .hbigscreen {
+    display: none;
+  }
+
+  .hsmallscreen {
+    display: flex;
+  }
+
+  .margirightzro {
+    margin-left: 0px !important;
+  }
+
+  .headingsinoffers {
+    margin-left: 20px;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #706667;
+    font-size: 25px;
+  }
+
+  .maxiwidthbodyoffers {
+    max-width: 1175px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paddingzero1 {
+    padding: 0px !important;
+  }
+
+  .marginzero {
+    margin: 0px !important;
+  }
+  .marginlpbottom {
+    margin-bottom: 10px;
+  }
+
+  .paddingleftoffers {
+    margin-left: 5px;
+  }
+
+  .paddingrightoffers {
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-round {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    .fontsizedw {
+      font-size: 16px;
+    }
+
+    .main75 {
+      flex: 100%;
+    }
+    .main25 {
+      flex: 100%;
+    }
+    .columncol2 {
+      float: left;
+      width: 100%;
+    }
+
+    .imagesizefix {
+      border-radius: 7px;
+      height: 100%;
+    }
+
+    .hsmallscreen {
+      display: none;
+    }
+
+    .hbigscreen {
+      display: flex;
+    }
+    .paddingsmallimg1 {
+      margin: 0px;
+    }
+
+    .headingsinoffers {
+      text-align: center;
+      margin-left: 0px;
+    }
+
+    .paddingsmallscreen {
+      padding: 10px;
+    }
+
+    .maxiwidthbodyoffers {
+      max-width: 100% !important;
+    }
+
+    .paddingleftoffers {
+      margin-left: 0px;
+    }
+
+    .paddingrightoffers {
+      margin-right: 0px;
+    }
+  }
+</style>
+
+<div class="container-mobile offers hide-big-screen">
+  <!-- Header Banner -->
+  <div class="header-container">
+    <img src="{{media url="wysiwyg/offers/About-Us---Mobile_02.jpg"}}" alt="">
+    <!--<div class="btitle title-box-shadow">
+                      <h1>M2All Offers</h1>
+                      </div>-->
+  </div>
+</div>
+
+<!--End Header Banner -->
+<!-- <div class="electric-container-75 shadow">
+          <img src="{{media url="wysiwyg/offers/About-Us---Mobile_05.jpg"}}" alt="">
+        </div>
+        <div class="electric-container-25">
+          <img src="{{media url="wysiwyg/offers/About-Us---Mobile_08.jpg"}}" alt="">
+        </div>
+        <div class="electric-container-25 right">
+          <img src="{{media url="wysiwyg/offers/About-Us---Mobile_10.jpg"}}" alt="">
+        </div>
+        <div class="electric-container">
+          <img src="{{media url="wysiwyg/offers/About-Us---Mobile_13.jpg"}}" alt="">
+        </div>
+        <div class="electric-container">
+          <img src="{{media url="wysiwyg/offers/About-Us---Mobile_15.jpg"}}" alt="">
+        </div> -->
+<div class="container offers hide-small-screen">
+  <!-- Header Banner -->
+  <div class="header-container">
+    <img src="{{media url="wysiwyg/offers/About-Us---Desktop_02.jpg"}}" alt="">
+    <!--<div class="btitle title-box-shadow">
+                      <h1>M2All Offers</h1>
+                      </div>-->
+  </div>
+  <div class="offer-list-panel">
+    <div class="offer-info">
+      <div class="offer-brand1">Mahindra</div>
+      <div class="offer-brand2">Auto</div>
+      <div class="offer-count">03</div>
+    </div>
+    <div class="offer-info">
+      <div class="offer-brand1">Mahindra Genuine</div>
+      <div class="offer-brand2">Accessories</div>
+      <div class="offer-count">05</div>
+    </div>
+    <div class="offer-info">
+      <div class="offer-brand1">Mahindra Genuine</div>
+      <div class="offer-brand2">Spares</div>
+      <div class="offer-count">01</div>
+    </div>
+    <div class="offer-info no-right-border">
+      <div class="offer-brand1">Mahindra</div>
+      <div class="offer-brand2">Merchandise</div>
+      <div class="offer-count">02</div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+        <div class="electric-container-75 shadow">
+          <img src="{{media url="wysiwyg/offers/About-Us---Desktop_14.jpg"}}" alt="">
+        </div>
+        <div class="electric-container-25">
+          <img src="{{media url="wysiwyg/offers/About-Us---Desktop_16.jpg"}}" alt="">
+        </div>
+        <div class="electric-container-25">
+          <img src="{{media url="wysiwyg/offers/About-Us---Desktop_18.jpg"}}" alt="">
+        </div>
+        <div class="electric-container">
+          <img src="{{media url="wysiwyg/offers/About-Us---Desktop_21.jpg"}}" alt="">
+        </div>
+        <div class="electric-container">
+          <img src="{{media url="wysiwyg/offers/About-Us---Desktop_23.jpg"}}" alt="">
+        </div>
+      </div> -->
+<div class="container offers">
+  <div class="maxiwidthbodyoffers">
+    <div class="row marginone widthundred">
+      <div
+        class="
+          col-xs-24 col-md-12
+          br7
+          marginlptop
+          paddingsmallscreen
+          marginzero
+        "
+      >
+        <a href="" target="_blank" rel="noopener"
+          ><img class="" src="{{media
+          url="wysiwyg/offers/FirstOrderOffer.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div
+        class="
+          col-xs-24 col-md-12
+          br7
+          marginlptop
+          paddingsmallscreen
+          marginzero
+        "
+      >
+        <a href="" target="_blank" rel="noopener"
+          ><img class="marginlpbottom" src="{{media
+          url="wysiwyg/offers/ReferandEarn-Offer.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+    <h3 class="headingsinoffers marginzero">Accessories</h3>
+
+    <div class="row widthundred marginone">
+      <div class="col-md-24 centerimageslp br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3taxZrZ" target="_blank" rel="noopener"
+          ><img style='height: 100%; width: 100%; object-fit: fill'
+          class="img-fluid marginlpbottom cardmain4 br7 marginlptop"
+          src="{{media url="wysiwyg/offers/offAccessories-Offer.jpg"}}" alt=""
+          /></a
+        >
+      </div>
+    </div>
+    <h3 class="headingsinoffers marginzero">Merchandise</h3>
+
+    <div class="row widthundred marginone">
+      <div class="col-md-24 centerimageslp br7 paddingsmallscreen marginzero">
+        <a href="http://bit.ly/339ewM0" target="_blank" rel="noopener"
+          ><img style='height: 100%; width: 100%; object-fit: fill'
+          class="img-fluid cardmain4 br7 marginlptop marginlpbottom"
+          src="{{media url="wysiwyg/offers/offmerchandise-Offer.jpg"}}" alt=""
+          /></a
+        >
+      </div>
+    </div>
+
+    <h3 class="headingsinoffers marginzero">3 Wheeler Commercial Vehicles</h3>
+
+    <div class="main-cont marginone">
+      <div class="main75 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3egpqUk" class="" target="_blank" rel="noopener"
+          ><img class="cardmain4 paddingsmallimg1 imagesizefix br7 marginlpbottom"
+          style=' width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/Ealfamini-Offers1.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div class="main25 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3cGBwbp" class="" target="_blank" rel="noopener"
+          ><img class="cardmain4 paddingsmallimg1 imagesizefix br7 marginlpbottom"
+          style=' width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/TreoZor-Offers.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="col-md-24  centerimageslp">
+          <a href="https://bit.ly/3taxZrZ" target="_blank" rel="noopener"
+            ><img class="img-fluid cardmain4 br7" src="{{media
+            url="wysiwyg/offers/OffersPage-TreoRangeAD.jpg"}}" alt="" /></a
+          >
+        </div>
+      </div> -->
+
+    <!-- <div class="row mb-10">
+        <div class="col-md-24 ">
+          <a href="https://bit.ly/3taxZrZ"
+            ><img class="img-fluid cardmain4 br7" src="{{media
+            url="wysiwyg/offers/OffersPage-TreoRangeAD.jpg"}}" alt="" /></a
+          >
+        </div>
+      </div> -->
+
+    <div class="row mb-10 widthundred marginone">
+      <div class="col-md-24 centerimageslp br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3taxZrZ"
+          ><img class="img-fluid cardmain4 br7 marginlptop" src="{{media
+          url="wysiwyg/offers/OffersPage-TreoRangeAD.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <div class="row marginone widthundred">
+      <div
+        class="
+          col-xs-24 col-md-12
+          br7
+          marginlptop
+          paddingsmallscreen
+          marginzero
+        "
+      >
+        <a href="https://bit.ly/33i8hqc" target="_blank" rel="noopener"
+          ><img class="cardmain4 br7 marginlptop" src="{{media
+          url="wysiwyg/offers/OffersPage-AlfaLoadrenew.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div
+        class="
+          col-xs-24 col-md-12
+          br7
+          marginlptop
+          paddingsmallscreen
+          marginzero
+        "
+      >
+        <a href="https://bit.ly/3q20VBO" target="_blank" rel="noopener"
+          ><img class="cardmain4 br7 marginlptop" src="{{media
+          url="wysiwyg/offers/OfferPage-AlfaPax.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <h3 class="headingsinoffers marginzero">4 Wheeler Commercial Vehicles</h3>
+
+    <div class="main-cont marginone">
+      <div class="main25 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3egDMqR" class="" target="_blank" rel="noopener"
+          ><img class="paddingsmallimg1 br7 imagesizefix cardmain4" style='
+          width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/OffersPage-JeetPetrol1.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div class="main75 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3vkdvgI" class="" target="_blank" rel="noopener"
+          ><img class="paddingsmallimg1 br7 imagesizefix cardmain4" style='
+          width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/OffersPage-SuproMAxi1.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <div class="main-cont marginone">
+      <div class="main75 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3gcbDzm" class="" target="_blank" rel="noopener"
+          ><img class="paddingsmallimg1 br7 cardmain4 imagesizefix" style='
+          width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/OffersPage-SuproMini111.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div class="main25 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/3gBcoDU" class="" target="_blank" rel="noopener"
+          ><img class="paddingsmallimg1 br7 cardmain4 imagesizefix" style='
+          width: 100%; object-fit: fill' src="{{media
+          url="wysiwyg/offers/OffersPage-JeetoDiesel111.jpg"}}" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <!-- <div class="rowcol2">
+          <div class="columncol2 centerimageslp">
+            <a href="https://bit.ly/38h5SNZ" target="_blank" rel="noopener"
+              ><img class="cardmain4 br7" src="{{media
+              url="wysiwyg/offers/OffersPage-JeetoCNG.jpg"}}" alt="" /></a
+            >
+          </div>
+          <div class="columncol2 centerimageslp">
+            <a href="https://bit.ly/2TyOalL" target="_blank" rel="noopener"
+              ><img class="cardmain4 br7" src="{{media
+              url="wysiwyg/offers/OffersPage-SuproAmbulancerenew.jpg"}}" alt="" /></a
+            >
+          </div>
+        </div> -->
+
+    <div class="row marginone widthundred">
+      <div class="col-xs-24 col-md-12 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/38h5SNZ" target="_blank" rel="noopener"
+          ><img class="cardmain4 br7 marginlptop " src="{{media
+          url="wysiwyg/offers/OffersPage-JeetoCNG.jpg"}}" alt="" /></a
+        >
+      </div>
+      <div class="col-xs-24 col-md-12 br7 paddingsmallscreen marginzero">
+        <a href="https://bit.ly/2TyOalL" target="_blank" rel="noopener"
+          ><img class="cardmain4 br7 marginlptop" src="{{media
+          url="wysiwyg/offers/OffersPage-SuproAmbulancerenew.jpg"}}" alt=""
+          /></a
+        >
+      </div>
+    </div>
+  </div>
+</div>
